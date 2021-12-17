@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>Enter your Password:</h1>
+
+<input type="text" id="input1">
+<button onclick="pwd()">Check</button>
+
+
+<body>
+
+    <script>
+               
+        function pwd(){
+
+            var input = document.getElementById("input1").value;
+            
+        
+            if (input === "StrongPWD") {
+
+              document.write("Your Password is Correct :");
+                
+            }
+            else {
+                document.write("Your Password is Wrong:");
+            }
+          
+        }
+
+
+        
+        
+           
+           </script>
+</body>
+
+</html>
